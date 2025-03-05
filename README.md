@@ -21,7 +21,7 @@ json2csv.py -i <input.json> -o <outputfile> (optional) -t --no_header -l
   output as tab separated format
 * (optional) --no_header  
   output without header
-* (optional) -l,--jsonline
+* (optional) -l,--jsonline  
   use jsonl file as input
 
 ## example
