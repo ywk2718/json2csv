@@ -11,7 +11,8 @@
   "input":"-i,--input <input json file>",
   "output":"-o,--output <output file>",
   "tsv output":"-t,--output_tsv",
-  "no header":"--no_header"
+  "no header":"--no_header",
+  "use jsonl input":"-l,--jsonline"
  }
 }
 
