@@ -6,6 +6,7 @@ python script for converting json format to csv/tsv format.
 argparse  
 pandas  
 json  
+flatten_json  
 
 ## usages
 ```python

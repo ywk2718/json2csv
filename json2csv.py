@@ -5,6 +5,7 @@ import os
 import argparse
 import pandas as pd
 import json
+import flatten_json
 
 parser = argparse.ArgumentParser(description='python script for converting json format to csv/tsv format')
 
@@ -23,9 +24,10 @@ noHeader = args.no_header
 #load input.json file
 json_open = open(fileIn, 'r')
 json_load = json.load(json_open)
+json_flat = flatten_json.flatten(json_load)
 
 #expand nested json format with json_normalize
-df_json = pd.json_normalize(json_load)
+df_json = pd.json_normalize(json_flat)
 
 #command option
 cmd = "df_json.to_csv(fileOut, index=False, encoding='utf-8'"
