@@ -1,0 +1,17 @@
+{
+ "program":
+ {
+  "name":"json2csv.py",
+  "developer":"ywk2718",
+  "version":"1.0",
+  "create_date":"2025-03-05"
+ },
+ "usage":
+ {
+  "input":"-i,--input <input json file>",
+  "output":"-o,--output <output file>",
+  "tsv output":"-t,--output_tsv",
+  "no header":"--no_header"
+ }
+}
+
